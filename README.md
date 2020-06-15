@@ -46,7 +46,7 @@ self._info['regularMarketPrice'] = self._info['regularMarketOpen']
 
 3. Gather data:
 
-Currently, the code is designed to collect data from Yahoo Finance of SPY (S&P 500). It takes the 505 companies in SPY and gathers the data into a .json file. To change this set of stocks, collect a list of tickers in a TSV (each row is a new entry) and update the path in line 12 of `fetch_data.py`.
+Currently, the code is designed to collect data from Yahoo Finance of SPY (S&P 500). It takes the 505 companies in SPY and gathers the data into a .json file. To change this set of stocks, collect a list of tickers in a TSV (each row is a new entry) and update the path in line 12 of `fetch_data.py`. `spy_data.json` is committed here as an example of the output/as a quick-start for testing the system in step 4.
 
 To get the data:
 
@@ -69,10 +69,18 @@ You can also load your own dataset if not using the one from `fetch_data.py` or 
 
 ## Screenshots
 
+### Business Summary Recommendation Input
+
 ![Business Summary input](screenshots/BizSummary.png)
+
+### Business Summary Recommendation Results
 
 ![Business Summary results](screenshots/BizSummaryResults.png)
 
+### Fundamentals Recommendation Input
+
 ![Stock Fundamentals input](screenshots/StockFundamentals.png)
+
+### Fundamentals Recommendation Results
 
 ![Stock Fundamentals results](screenshots/StockFundamentalsResults.png)
