@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.body{
+    background-color: darkkhaki;
+}
+
+.button {
+    background-color: beige;
+    border: none;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.button:hover {
+    background-color: khaki;
+}
+
+input[type=text], select {
+    width: 25%;
+    padding: 6px 6px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+.multi_select {
+    width: 600px;
+}
+
+#ticker_select {
+    width: 100px;
+    min-width: 100px;
+}
+
+#rec_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#rec_table th, #rec_table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#rec_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#rec_table tr:nth-child(even) {background-color: #f2f2f2;}
+
+#rec_table tr:hover {background-color: #ddd;}
