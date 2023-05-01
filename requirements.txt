@@ -1,5 +1,5 @@
 beautifulsoup4==4.9.1
-Flask==1.1.2
+Flask==2.3.2
 gevent==20.6.1
 html5lib==1.0.1
 lxml==4.6.2
